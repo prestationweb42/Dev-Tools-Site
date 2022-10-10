@@ -67,7 +67,7 @@ hr {
 }
 .administratif {
     background: powderblue;
-    height: 80vh;
+    height: 50vh;
 }
 @media screen and (max-width: 1200px) {
     .administratif {
