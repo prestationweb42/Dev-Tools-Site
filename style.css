@@ -14,11 +14,23 @@
 .navbar-nav {
     margin: 0 50px;
 }
+.navbar-brand {
+    width: auto;
+    font-size: 2em;
+    padding: 0 10px;
+    margin: 0 50px;
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow: 5px 5px 5px #555555, -5px -5px 5px #ffffff;
+}
 .nav-link {
     margin-right: 20px;
     font-size: 17px;
     font-weight: 500;
     text-transform: uppercase;
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow: 5px 5px 5px #555555, -5px -5px 5px #ffffff;
 }
 .active {
     font-weight: 700;
@@ -49,7 +61,10 @@ hr {
 /* Setting background container */
 .home {
     background: wheat;
-    height: 80vh;
+    height: 75vh;
+}
+.home5 {
+    height: 40vh;
 }
 .formation {
     background: cornsilk;
