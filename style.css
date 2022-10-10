@@ -71,7 +71,12 @@ hr {
 }
 .affiliation {
     background: teal;
-    height: auto;
+    height: 85vh;
+}
+@media screen and (max-width: 1200px) {
+    .affiliation {
+        height: auto;
+    }
 }
 .affiliation h3 {
     color: white;
