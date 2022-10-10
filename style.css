@@ -32,8 +32,9 @@ li {
 }
 
 /* Setting hr */
-hr{
+hr {
     width: 50%;
+    margin: 30px auto;
 }
 /* Setting container */
 .container {
@@ -48,10 +49,10 @@ hr{
 /* Setting background container */
 .home {
     background: wheat;
-    height: 70vh;
+    height: 80vh;
 }
 @media screen and (max-width: 1200px) {
-    .home{
+    .home {
         height: auto;
     }
 }
@@ -70,7 +71,7 @@ hr{
 .affiliation h3 {
     color: white;
 }
-.affiliation p {
+p {
     font-size: 17px;
     font-weight: 500;
     color: black;
@@ -83,6 +84,7 @@ hr{
 }
 
 .ordered-list {
+    min-height: 100px;
     padding: 10px 30px;
     border-radius: 10px;
     background: rgb(253, 251, 241);
